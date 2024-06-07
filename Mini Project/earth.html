@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D-MAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand d-md-none" href="#">
+                <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                </svg>
+                Aperture
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Aperture</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="#aperture"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="knowledege.html">Awareness</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="preparation.html">Preparedness</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="drills.html">Training</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="tutorials.html">Exercises</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-body-emphasis active" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg class="bi" width="24" height="24">
+                                    <use xlink:href="#cart"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mx-auto p-2" style="width: 90%; max-height: 650px;">auto;">s
+            <div class="carousel-item active">
+                <img src="images/earth1.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light">Hurricanes</h1>
+                    <p class="fs-2 text-dark">
+
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/earth2.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light">Cyclone</h1>
+                    <p class="fs-2 text-dark">
+
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/earth4.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light">Tornado</h1>
+                    <p class="fs-2 text-dark">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <main class="container">
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    Preparing for Earthquake!!
+                </h3>
+                <p>An earthquake is the sudden release of strain energy in the Earth's crust, resulting in waves of
+                    shaking that radiate outwards from the earthquake source. </p>
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">
+                        <i class="text-warning">Introduction of Seismic Waves</i>
+                    </h2>
+                    <p>When an earthquake happens, energy shockwaves known as seismic waves are released from the
+                        earthquake's focal point. They shake the Earth and transform soft deposits like clay into jelly
+                        for a short time (liquefaction). <br>
+
+
+                        Seismographs are used by seismologists to record how long seismic waves take to travel across
+                        different layers of the Earth. Waves can be refracted and reflected as they travel through
+                        varying densities and stiffnesses. Seismologists can deduce the sort of material the waves are
+                        traveling through based on the differing behavior of waves in different materials. <br>
+
+
+                        The findings could provide a glimpse of the Earth's core structure, as well as aid in the
+                        location and understanding of fault planes and the pressures and strains that act on them.</p>
+                    <br>
+
+
+
+                    <hr />
+
+
+
+                    <blockquote class="blockquote">
+                        <h3 class="text-success-emphasis">Seismic Waves Types</h3>
+                        <p>P-waves, S-waves, and surface waves are the three primary forms of seismic waves. Body waves
+                            refer to the combination of P-waves and S-waves.</p><br>
+                        <h4>Waves produced by Earthquakes</h4>
+                        <p>When an earthquake happens, it sends forth energy waves known as seismic waves. It's similar
+                            to the ripples that occur when a stone is thrown into the water. Seismic waves are similar
+                            to ripples that can flow through the earth's interior as well as its surface.</p><br>
+                        <h4>Wave Types of Earthquakes</h4>
+                        <p>Three primary forms of elastic waves cause earthquake shaking and damage. Two of the three
+                            reproduce within a rock mass. The main or P wave is the fastest of these bodily waves. Its
+                            motion is similar to that of a sound wave in that it alternately pushes (compresses) and
+                            pulls (dilates) the rock as it spreads out. These P waves can pass through solid rock, such
+                            as granite mountains, as well as a liquid material, such as volcanic lava or ocean water.
+                        </p><br>
+                        <img src="images/pswave.png" height="700px" width="800px" alt="">
+                        <p>The secondary or S wave is the slower wave that travels through the body of rock. An S wave
+                            shears the rock sideways at right angles to the direction of motion as it propagates. S
+                            waves cannot propagate in the liquid sections of the planet, such as oceans and lakes, since
+                            liquids do not rebound back when sheared sideways or twisted. <br><br>The density and
+                            elastic qualities of the rocks and soil through which seismic waves flow determine their
+                            actual speed. The P waves are the first to be felt in most earthquakes. The effect is
+                            similar to that of a sonic boom, which rattles and knocks glass. The S waves arrive a few
+                            seconds later, shaking the ground surface vertically and horizontally with their up-and-down
+                            and side-to-side movements. This is the type of wave motion that causes so much structural
+                            damage.</p>
+                        <hr>
+                        <h3>What are Seismic Waves?</h3>
+                        <p>The energy that travels under the surface layer of the earth and causes an earthquake is
+                            called seismic waves. <br>A crack starts to open on a pre-existing point or line of weakness
+                            deep underground when an earthquake takes place. Stress builds over the surface of the earth
+                            as the crack grows on to become larger and larger. This energy causing the earthquake is
+                            known as seismic waves. Seismic waves transfer energy without moving material. <br>
+
+
+                            The crack grows with a speed of 2 to 3 km/sec. The level or size of the earthquake also
+                            depends on the area in which it takes place. The magnitude, that is, the size of the waves
+                            depends on the level of break or slip that has taken place under the surface. The process of
+                            cracks and slips taking place is known as Rupture. <br>
+
+
+
+                            So, the elastic waves that are formed are because of the rupturing that takes place deep
+                            underground and continues to grow at a very fast pace. The speed of this growth depends on
+                            their nature and the properties of the earth. Here is a fact for you: as we go deeper and
+                            deeper into the surface of the earth, the seismic waves found there are of higher density,
+                            pressure, and velocity.</p><hr>
+                            <h3>Body Waves or ‘Through The Earth’ Waves are Further divided into Two: </h3>
+                            <p><li>P waves (for Primary waves)</li>  
+
+                               <li> S waves (for Secondary Waves)</li><br>
+                                
+                                Primary waves are faster in pace, and Secondary waves are slower in pace. Surface wave earthquakes are very significant, too, as when they grow, they bring destruction to the surface of the earth where all the buildings and people live. It is mostly the energy formed by surface waves that can knock down big buildings. <br>
+                                
+                                
+                               <b> P Waves (Primary Waves)</b> <br>
+                                
+                                P waves are the fastest seismic waves of all and are thus called Primary ones. P waves grow or travel at a speed of 5 kilometers per sec through the earth’s crust. P waves are the first ones to reach any particular location or point when an earthquake occurs. The waves have a tendency to flow through all three i.e., solids, liquids, and gases. The materials that they flow through experience a force or energy that slightly pulls them apart and pushes them together. The same energy is experienced by a building when an earthquake occurs. <br>
+                                
+                                 
+                                
+                                <b>S Waves (Secondary Waves) </b><br>
+                                
+                                S waves are the second-fastest seismic waves and are thus called Secondary. The speed at which the S waves travel is almost half the speed of Primary Waves. S waves are the ones to reach any location after the primary waves when an earthquake occurs. Unlike Primary Waves, Secondary Waves make the material go through an up and down shaking movement from the sides when it flows through them. Unlike P waves, S waves can travel through rocks only. </p>
+
+
+                    </blockquote>
+            </div>
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem">
+                    <div class="modal-body p-5">
+                        <h2 class="fw-bold mb-0">What's new</h2>
+                        <hr>
+                        <li class="d-flex gap-4">
+
+                            <div>
+                                <h3 class="mb-0 text-primary">Video Tutorials</h3>
+                                <br>
+                                <img src="images/tutorilas.jpeg" height="150px" width="300px" alt="">
+                                Learn what to do with video tutorials
+                            </div>
+                        </li>
+                        <a href="tutorials.html">
+
+                            <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal"
+                                fdprocessedid="hcx63">Great, Let's Go!</button></a>
+                    </div>
+                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                        <h4 class="fst-italic text-primary">About</h4>
+                        <p class="mb-0">
+                            P waves are the fastest seismic waves and can move through solid, liquid, or gas. 
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4 class="fst-italic">Another disasters</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="Forestfire.html">
+                                    <img src="images/wildfire1-768px.webp" class="bd-placeholder-img" width="100%"
+                                        height="96" alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Forest fire</h6>
+                                        <small class="text-body-secondary"></small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="Tsunami.html">
+                                    <img src="images/tsunami4.jpg" class="bd-placeholder-img" width="100%" height="96"
+                                        alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Tsunami</h6>
+                                        <small class="text-body-secondary"></small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="cyclone.html">
+                                    <img src="images/cyclone.jpg" class="bd-placeholder-img" width="100%" height="96"
+                                        alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Hurricanes and Cyclones</h6>
+                                        <small class="text-body-secondary"></small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="Dry.html">
+                                    <img src="images/dry 2.jpg" class="bd-placeholder-img" width="100%" height="96"
+                                        alt="">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Drought</h6>
+                                        <small class="text-body-secondary"></small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+    <footer
+        class="py-5 text-center text-body-secondary bg-body-tertiary d-flex justify-content-center align-items-center">
+        <p class="mb-0">
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link px-2 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="tutorials.html" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary">Emergency Helpline</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <img class="bd-placeholder-img" width="250" height="100" src="images/dmap-high-resolution-logo-transparent.png" alt="" />
+        </div>
+    </footer>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
